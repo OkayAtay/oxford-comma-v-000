@@ -8,9 +8,8 @@ def oxford_comma(array)
   elsif array.length==3
     new_array = []
     new_array<<array.pop
-    new_array.unshift(" and ")
+    new_array.unshift(", and ")
     array.join(", ") + new_array.join
   end
 end
 
-oxford_comma(array)
