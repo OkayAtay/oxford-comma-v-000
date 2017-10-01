@@ -8,7 +8,7 @@ def oxford_comma(array)
   elsif array.length==3
     new_array = []
     new_array<<array.slice(2)
-    new_array.unshift(" and ")
+    new_array.unshift( and )
   end
 end
 
