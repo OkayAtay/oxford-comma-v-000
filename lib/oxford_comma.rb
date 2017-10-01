@@ -9,6 +9,7 @@ def oxford_comma(array)
     new_array = []
     new_array<<array.slice(2)
     new_array.unshift(" and ")
+    array.join(", ") + new_array.join
   end
 end
 
